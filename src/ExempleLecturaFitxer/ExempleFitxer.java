@@ -23,7 +23,7 @@ public class ExempleFitxer {
        try {
 
           br =new BufferedReader(new FileReader("./src/ExempleLecturaFitxer/fitxer_csv.csv"));
-          br_output=new BufferedWriter(new FileWriter(".\\src\\ExempleLecturaFitxer\\fitxer_csv2.csv"));
+          br_output =new BufferedWriter(new FileWriter(".\\src\\ExempleLecturaFitxer\\fitxer_csv2.csv"));
           String line = br.readLine();
           while (null!=line) {
             br_output.write(line);

@@ -18,7 +18,7 @@ public class InputStreamDemo {
       try {
       
          // new input stream created
-         is = new FileInputStream(".\\src\\ExempleLecturaFitxer\\fitxer_csv2.csv");
+         is = new FileInputStream(".\\src\\ExempleLecturaFitxer\\fitxer_csv.csv");
          
          System.out.println("Characters printed:");
          
